@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375581838162",
+    "firebase_url": "https://notesnap-cee40-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notesnap-cee40",
+    "storage_bucket": "notesnap-cee40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375581838162:android:1eb0021e5d901d8be3088b",
+        "android_client_info": {
+          "package_name": "com.example.notesnap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375581838162-3fakhn0bqucfa3bp9rbu7c8ihhrk8h7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notesnap",
+            "certificate_hash": "bb945ab296f0b39fea129255cae0afca263a2a85"
+          }
+        },
+        {
+          "client_id": "375581838162-gl4u684ns4ul5p5vsueetbci0u4lie1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM1-oFVweSUzO3hc2CCrbbOZuLKw5eEQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375581838162-gl4u684ns4ul5p5vsueetbci0u4lie1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
