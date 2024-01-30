@@ -14,12 +14,15 @@ class NoteAdapter(private val notes: List<NoteItem>):RecyclerView.Adapter<NoteAd
             binding.titleNotesItem.text= note.title
             binding.descriptionNotesItem.text = note.description
             binding.cardview.setOnClickListener {
-                val intent = Intent(binding.root.context, addnote::class.java)
-                // Pass any data to the new activity if needed
+
+                val intent = Intent(binding.root.context, showInfo::class.java)
                 intent.putExtra("NoteTitle", note.title)
                 intent.putExtra("NoteDescription", note.description)
+                intent.putExtra("noteId", note.noteId)
                 binding.root.context.startActivity(intent)
 
+                // Pass any data to the new activity if needed
+                // M
             }
 
 

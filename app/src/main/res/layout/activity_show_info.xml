@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".addnote">
-
+    tools:context=".showInfo">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -47,21 +46,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/savebtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20sp"
-            android:layout_marginRight="20sp"
-            android:text="Save your Notes" />
 
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save your Notes"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/upd"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/del"/>
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
