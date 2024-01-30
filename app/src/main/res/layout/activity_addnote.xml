@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:backgroundTint="@color/lavenderblush"
     android:layout_height="match_parent"
     tools:context=".addnote">
 
@@ -47,21 +48,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="horizontal"
         android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/savebtn"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save your Notes"
-            android:layout_gravity="center"
-            android:id="@+id/savebtn"/>
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="Save your Notes" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Save your Notes"
-            android:layout_gravity="center"
-            android:id="@+id/upd"/>
 
     </LinearLayout>
 

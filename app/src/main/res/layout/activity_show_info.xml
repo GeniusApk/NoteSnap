@@ -4,73 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@color/lavenderblush"
-
     android:layout_height="match_parent"
-    tools:context=".singup">
-
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="170dp"
-        android:text="Walcome to NoteSnap"
-        android:textSize="30sp"
-        android:textStyle="bold"
-         />
-
-
+    tools:context=".showInfo">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/emailsingup"
+        android:id="@+id/title"
         app:helperText="*Required"
-        app:startIconDrawable="@drawable/baseline_alternate_email_24"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        app:helperTextTextColor="#FF0000"
         android:layout_margin="15dp"
+        android:inputType="text"
+
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:hint="Mail" />
+            android:inputType="textShortMessage"
+
+            android:hint="Title" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/passwordsingup"
-        app:helperText="*Required"
+        android:layout_height="500dp"
+
+
+        android:id="@+id/description"
+        android:inputType="textMultiLine"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        app:helperTextTextColor="#FF0000"
         android:layout_margin="15dp"
-        app:endIconMode="password_toggle"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="textPassword"
-            android:hint="Password" />
+
+            android:inputType="textMultiLine"
+            android:hint="Description" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/singbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
-        android:layout_gravity="center"
-        android:text="SingUp"
-        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save your Notes"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/upd"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/del"/>
+
+    </LinearLayout>
 
 </LinearLayout>
