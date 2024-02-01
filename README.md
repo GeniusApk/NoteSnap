@@ -12,8 +12,13 @@ NoteSnap is a simple Android app for taking and managing notes. It allows users 
 
 ## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 1](https://github.com/in-deep-dive/NoteSnap/blob/master/scpl.jpeg)
+![Screenshot 2](https://github.com/in-deep-dive/NoteSnap/blob/master/login.jpeg)
+![Screenshot 3](https://github.com/in-deep-dive/NoteSnap/blob/master/main.jpeg)
+![Screenshot 4](https://github.com/in-deep-dive/NoteSnap/blob/master/revirw.jpeg)
+
+
+
 <!-- Add more screenshots as needed -->
 
 ## Animations
