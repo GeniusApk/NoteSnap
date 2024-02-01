@@ -10,6 +10,9 @@ NoteSnap is a simple Android app for taking and managing notes. It allows users 
 - Search for notes based on title or description.
 - Utilizes animations for a visually appealing user experience.
 
+## Download
+Click Here to Download
+[![Download App](https://img.shields.io/badge/Download-App-blue)](https://github.com/in-deep-dive/NoteSnap/releases/tag/v1.1)
 ## Screenshots
 
 ![Screenshot 1](https://github.com/in-deep-dive/NoteSnap/blob/master/scpl.jpeg)
@@ -21,15 +24,16 @@ NoteSnap is a simple Android app for taking and managing notes. It allows users 
 
 <!-- Add more screenshots as needed -->
 
-## Animations
 
-The NoteSnap app incorporates animations to enhance the user interface and provide a smooth user experience. These animations include [mention the types of animations used, e.g., fade-in, slide-up].
-
-## Getting Started
-
+## 
 To build and run the NoteSnap app locally, follow these steps:
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/NoteSnap.git
+
+## 🔗 Links
+
+[![Instagram](https://img.shields.io/badge/Instagram-Profile-orange)](https://www.instagram.com/_aakib__21/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/mohd-aakib-0546ab272/)
