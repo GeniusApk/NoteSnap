@@ -15,10 +15,13 @@ Click Here to Download
 [![Download App](https://img.shields.io/badge/Download-App-blue)](https://github.com/in-deep-dive/NoteSnap/releases/tag/v1.1)
 ## Screenshots
 
-![Screenshot 1](https://github.com/in-deep-dive/NoteSnap/blob/master/scpl.jpeg)
-![Screenshot 2](https://github.com/in-deep-dive/NoteSnap/blob/master/login.jpeg)
-![Screenshot 3](https://github.com/in-deep-dive/NoteSnap/blob/master/main.jpeg)
-![Screenshot 4](https://github.com/in-deep-dive/NoteSnap/blob/master/revirw.jpeg)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/in-deep-dive/NoteSnap/blob/master/scpl.jpeg" alt="Screenshot 1" width="250">
+    <img src="https://github.com/in-deep-dive/NoteSnap/blob/master/login.jpeg" alt="Screenshot 2" width="250">
+    <img src="https://github.com/in-deep-dive/NoteSnap/blob/master/main.jpeg" alt="Screenshot 3" width="250">
+    <img src="https://github.com/in-deep-dive/NoteSnap/blob/master/revirw.jpeg" alt="Screenshot 4" width="250">
+</div>
+
 
 
 
